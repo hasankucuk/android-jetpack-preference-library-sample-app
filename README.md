@@ -1,5 +1,21 @@
 # Jetpack - Preference Library Sample App
 
+Preference Property
+
+<img src="https://github.com/hasankucuk/android-jetpack-preference-library-sample-app/blob/master/art/1.jpg" width="30%" height="30%">
+
+Basic Attributes
+
+<img src="https://github.com/hasankucuk/android-jetpack-preference-library-sample-app/blob/master/art/2.jpg" width="30%" height="30%">
+
+Dialog Preference
+
+<img src="https://github.com/hasankucuk/android-jetpack-preference-library-sample-app/blob/master/art/3.jpg" width="30%" height="30%"><img src="https://github.com/hasankucuk/android-jetpack-preference-library-sample-app/blob/master/art/4.jpg" width="30%" height="30%">
+
+Advanced Preference 
+
+<img src="https://github.com/hasankucuk/android-jetpack-preference-library-sample-app/blob/master/art/5.jpg" width="30%" height="30%"><img src="https://github.com/hasankucuk/android-jetpack-preference-library-sample-app/blob/master/art/6.jpg" width="30%" height="30%">
+
 
 License
 --------
