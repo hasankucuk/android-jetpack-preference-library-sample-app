@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Dialogs Preference">
+
+        <EditTextPreference
+            android:dialogTitle="Dialog Title"
+            android:key="key_edittext_preference"
+            app:title="EditTextPreference"
+            app:useSimpleSummaryProvider="true" />
+
+
+        <ListPreference
+            app:dialogTitle="Choose one option!"
+            app:entries="@array/entries"
+            app:entryValues="@array/entry_values"
+            app:key="list"
+            app:title="ListPreference"
+            app:useSimpleSummaryProvider="true" />
+
+        <MultiSelectListPreference
+            app:dialogTitle="Choose some options!"
+            app:entries="@array/entries"
+            app:entryValues="@array/entry_values"
+            app:key="multi_select_list"
+            app:summary="Shows a dialog with multiple choice options"
+            app:title="MultiSelectListPreference" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

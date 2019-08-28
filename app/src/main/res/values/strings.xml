@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">android-jetpack-preferences-library</string>
+    <string name="preference_desc_basic_attributes">Example of basic preferences properties.</string>
+    <string name="preference_title_basic_attributes">Basic Attributes</string>
+    <string name="title_styled_basic_preferences"><b>Stylized</b> <i>Preference</i> <u>Settings</u></string>
+    <string name="summary_style_basic_preferences"><![CDATA[Define style tags such as <b> in a string resource to customize a preference\'s text]]></string>
+    <string name="summary_single_line_basic_preferences">This title will be ellipsized instead of wrapping to another line</string>
+    <string name="title_single_line_basic_preference">Single line title preference - no matter how long the title is it will never wrap to multiple lines</string>
+</resources>

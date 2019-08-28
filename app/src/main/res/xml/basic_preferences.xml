@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Basic Attributes" >
+
+        <Preference
+            android:key="key_basic_preferences"
+            android:title="Simple Preference"
+            app:summary="No extras attributes" />
+
+        <Preference
+            android:key="key_stylized_preferences"
+            android:title="@string/title_styled_basic_preferences"
+            app:summary="@string/summary_style_basic_preferences" />
+
+        <Preference
+            android:key="key_icon_preferences"
+            android:title="Icon Preference"
+            app:icon="@drawable/ic_star_black_24dp"
+            app:summary="Icon preference" />
+
+        <Preference
+            app:key="single_line_title"
+            app:singleLineTitle="true"
+            app:summary="@string/summary_single_line_basic_preferences"
+            app:title="@string/title_single_line_basic_preference" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

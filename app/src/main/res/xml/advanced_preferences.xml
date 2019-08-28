@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="key_advanced_preferences"
+        app:initialExpandedChildrenCount="1"
+        app:title="Advanced Preferences">
+
+        <Preference
+            android:key="key_expandable_advaced_preferences"
+            app:summary="This group shows one item and collapses the rest into the advanced button below"
+            app:title="Expandable Preferences Group" />
+
+        <Preference
+            android:key="key_intent_advanced_preferences"
+            app:summary="Launches an intent when pressed"
+            app:title="Intent Preferences">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="www.mobiler.dev" />
+        </Preference>
+
+        <SwitchPreferenceCompat
+            android:key="key_parent"
+            app:summary="Parent Preference Summary"
+            app:title="Parent Preferences" />
+        <SwitchPreferenceCompat
+            android:dependency="key_parent"
+            android:key="key_child"
+            app:summary="Child Preference Summary"
+            app:title="Child Preferences" />
+
+        <SwitchPreferenceCompat
+            android:key="key_variable_summary_preference"
+            android:summaryOff="Summary is  OFF"
+            android:summaryOn="Summary is ON"
+            app:title="On-Off Summary Preference" />
+
+        <Preference
+            android:key="key_copy_preference"
+            android:selectable="false"
+            app:enableCopying="true"
+            app:summary="Long press  on this preference to copy its summary"
+            app:title="Copyable Preferences" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

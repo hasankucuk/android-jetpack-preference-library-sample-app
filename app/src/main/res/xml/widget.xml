@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Widget">
+
+        <CheckBoxPreference
+            android:key="key_checkbox_preferences"
+            app:summary="Tap anywhere in this preference to toggle state"
+            app:title="CheckBoxPreference" />
+        <SwitchPreferenceCompat
+            android:key="key_switch_preference_compat"
+            app:summary="Tap anywhere in this preference to toggle state"
+            app:title="SwitchPreferenceCompat" />
+        <DropDownPreference
+            android:key="key_dropdown_preferences"
+            app:useSimpleSummaryProvider="true"
+            app:entries="@array/entries"
+            app:entryValues="@array/entry_values"
+            app:title="DropDownPreference" />
+        <SeekBarPreference
+            android:defaultValue="40"
+            android:key="key_seekbar_preferences"
+            app:title="SeekBarPreference" />
+    </PreferenceCategory>
+</PreferenceScreen>
